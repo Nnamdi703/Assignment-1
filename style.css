@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 1;
+
+}
+
+.rightside{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 0;
+}
+
+.rightside label{
+    display: block;
+}
+
+.rightside input[type="date"]{
+  width: 170px;
+}
+
+button{
+    width: 80%;
+    height: 40px;
+    background-color: rgb(88, 88, 235);
+    color:white;
+}
+
+.skip{
+    position: absolute;
+    left: 1000000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip:focus{
+    position: static;
+    width: auto;
+    height: auto;
+}
